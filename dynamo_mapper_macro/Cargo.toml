@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Varkal <moreau.romain83@gmail.com>"]
 edition = "2018"
 
+description = "Utility library for dynamo_mapper. Don't use by itself"
+license = "MIT"
+
 [lib]
 proc-macro = true
 
