@@ -1,8 +1,13 @@
 [package]
 name = "dynamo_mapper"
 version = "0.1.0"
-authors = ["Varkal <moreau.romain83@gmail.com>"]
 edition = "2018"
+
+authors = ["Varkal <moreau.romain83@gmail.com>"]
+description = "A simple library to map Rust structs to/from DynamoDB items"
+readme = "README.MD"
+license-file="LICENSE.MD"
+repository="https://github.com/Varkal/dynamo_mapper.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -10,7 +15,7 @@ edition = "2018"
 rusoto_core = "0.38.0"
 rusoto_dynamodb = "0.38.0"
 uuid = { version = "0.7.4", features = ["v4"], optional = true }
-dynamo_mapper_macro = { path = "./dynamo_mapper_macro" }
+dynamo_mapper_macro = { path = "./dynamo_mapper_macro", version = "0.1.0" }
 
 [features]
 default = []
